@@ -1,0 +1,20 @@
+Dependencies:
+Openpose:
+install from- https://github.com/CMU-Perceptual-Computing-Lab/openpose
+
+Run the code:
+
+Step 1: Train the model on the dataset.csv by running the followig command on terminal
+
+python3 training.py --dataset dataset.csv
+
+Step 2: Run the real time pose estimation on storage videos by running the followig command on terminal
+
+python3 main.py --source storage
+
+or
+
+
+Run the real time pose estimation on webcam by running the followig command on terminal
+
+python3 main.py --source cam
